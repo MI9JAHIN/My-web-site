@@ -1,49 +1,22 @@
 body {
     background-color: #919191;
     font-family: 'Inter', sans-serif;
+    font-style: normal;
+
 }
 
 section {
-    display: flex;
-
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: white;
 }
 
 .text {
     width: 100%;
-    color: white;
-    padding-left: 50px;
 }
+
 
 .profile-image img {
-    width: 50%;
+    width: 100%;
     padding-left: 271px;
-    padding-right: 0px;
-    padding-top: 125px;
-}
-
-.welcome {
-    width: 677px;
-    height: 127px;
-    flex-shrink: 0;
-    color: #FFF;
-    font-family: Inter;
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding-top: 62px;
-    padding-bottom: 505px;
-    padding-left: 0px;
-    padding-right: 234px;
-}
-
-.salam {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 55px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding-left: 0px;
-    padding-top: 194px;
 }
