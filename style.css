@@ -4,7 +4,7 @@ body {
 }
 
 section {
-    display: flex;
+    display: grid;
 }
 
 .text {
@@ -13,18 +13,22 @@ section {
 }
 
 .salam {
-    width: 463px;
-    height: 67px;
+    color: #FFF;
     font-family: Inter;
     font-size: 55px;
-    letter-spacing: 0em;
-    text-align: left;
-    padding-top: 319px;
-    padding-left: 885px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .welcome {
+    width: 677px;
+    height: 127px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
     font-size: 35px;
+    font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
@@ -32,5 +36,9 @@ section {
 .profile-image image {
     width: 629.888px;
     height: 955px;
-    padding-bottom: 10px;
+    flex-shrink: 0;
+    padding-left: 271px;
+    padding-right: 125px;
+    padding-bottom: 0px;
+    padding-top: 125px;
 }
