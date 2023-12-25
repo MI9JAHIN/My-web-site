@@ -7,16 +7,64 @@ body {
 
 section {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 5% 40% 100% 0%;
     color: white;
 }
 
 .text {
-    width: 100%;
+    width: 80%;
+    padding-top: 180px;
+}
+
+.manu-icon img {
+    width: 67px;
+    height: 67px;
+    flex-shrink: 0;
+    padding-left: 90px;
+    padding-top: 52px;
 }
 
 
 .profile-image img {
     width: 100%;
-    padding-left: 271px;
+    width: 629.888px;
+    height: 955px;
+    flex-shrink: 0;
+    padding-left: 50px;
+}
+
+.salam {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 0px;
+}
+
+.welcome {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 70PX;
+    padding-top: 100px;
+}
+
+.text img {
+    width: 616px;
+    height: 145px;
+    flex-shrink: 0;
+    padding-top: 170px;
+    padding-left: 50PX;
+}
+
+.media img {
+    width: 58px;
+    height: 58px;
+    flex-shrink: 0;
+    padding-top: 160px;
 }
