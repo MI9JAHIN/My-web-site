@@ -7,12 +7,13 @@ body {
 
 section {
     display: grid;
-    grid-template-columns: 5% 40% 100% 0%;
+    grid-template-columns: 0% 0% 70% 0% 0% 0%;
     color: white;
 }
 
 .text {
     width: 80%;
+    padding-left: 901px;
     padding-top: 180px;
 }
 
@@ -26,11 +27,11 @@ section {
 
 
 .profile-image img {
-    width: 100%;
-    width: 629.888px;
-    height: 955px;
+    width: 611px;
+    height: 611px;
     flex-shrink: 0;
-    padding-left: 50px;
+    padding-left: 160px;
+    padding-top: 160px;
 }
 
 .salam {
@@ -50,21 +51,38 @@ section {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding-left: 70PX;
+    padding-left: 80px;
     padding-top: 100px;
 }
 
 .text img {
-    width: 616px;
-    height: 145px;
+    width: 514px;
+    height: 121px;
     flex-shrink: 0;
     padding-top: 170px;
     padding-left: 50PX;
 }
 
-.media img {
+.facebook img {
     width: 58px;
     height: 58px;
     flex-shrink: 0;
-    padding-top: 160px;
+    padding-left: 430px;
+    padding-top: 302px;
+}
+
+.linkedin img {
+    width: 58px;
+    height: 58px;
+    flex-shrink: 0;
+    padding-left: 430px;
+    padding-top: 411px;
+}
+
+.git img {
+    width: 58px;
+    height: 58px;
+    flex-shrink: 0;
+    padding-left: 430px;
+    padding-top: 520px;
 }
