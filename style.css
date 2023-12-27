@@ -84,16 +84,28 @@ body {
 }
 
 p {
-    font-size: 30px;
+    font-size: 25px;
     padding-left: 249px;
-    padding-top: 210px;
+    padding-top: 260px;
     text-align: justify;
 }
 
 .hire-me {
-    color: #FFF;
+    margin-left: 700px;
+    padding-left: 652px;
+    color: rgb(255, 255, 255);
     font-size: 30px;
-    padding-bottom: 364px;
+    text-decoration: none;
+    background-image: linear-gradient(#FDC3C5, #919191);
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 1000;
+}
+
+span {
+    font-size: 20px;
+    color: rgb(4, 7, 0);
 }
 
 .photo img {
