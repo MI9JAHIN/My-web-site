@@ -79,15 +79,21 @@ body {
 
 .middle-banner {
     display: grid;
-    grid-template-columns: 550% 0%;
+    grid-template-columns: 550% 0% 0%;
     width: 10%;
 }
 
 p {
     font-size: 30px;
     padding-left: 249px;
-    padding-top: 310px;
+    padding-top: 210px;
     text-align: justify;
+}
+
+.hire-me {
+    color: #FFF;
+    font-size: 30px;
+    padding-bottom: 364px;
 }
 
 .photo img {
@@ -95,4 +101,5 @@ p {
     height: 768px;
     flex-shrink: 0;
     padding-left: 200px;
+    padding-top: 200px;
 }
