@@ -1,12 +1,13 @@
 body {
     background-color: #919191;
     font-family: 'DM Serif Display', serif;
+    color: white;
 }
 
-section {
+.top-banner {
     display: grid;
     grid-template-columns: 0% 0% 60% 0% 0% 0%;
-    color: rgb(255, 255, 255);
+
 }
 
 .text {
@@ -74,4 +75,24 @@ section {
     height: 58px;
     padding-left: 630px;
     padding-top: 520px;
+}
+
+.middle-banner {
+    display: grid;
+    grid-template-columns: 550% 0%;
+    width: 10%;
+}
+
+p {
+    font-size: 30px;
+    padding-left: 249px;
+    padding-top: 310px;
+    text-align: justify;
+}
+
+.photo img {
+    width: 492px;
+    height: 768px;
+    flex-shrink: 0;
+    padding-left: 200px;
 }
