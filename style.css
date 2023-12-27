@@ -20,7 +20,7 @@ body {
     width: 67px;
     height: 67px;
     padding-left: 90px;
-    padding-top: 52px;
+    padding-top: 90px;
 }
 
 
@@ -92,7 +92,6 @@ p {
 
 .hire-me {
     margin-left: 700px;
-    padding-left: 652px;
     color: rgb(255, 255, 255);
     font-size: 30px;
     text-decoration: none;
