@@ -5,8 +5,8 @@ body {
 
 section {
     display: grid;
-    grid-template-columns: 0% 0% 70% 0% 0% 0%;
-    color: white;
+    grid-template-columns: 0% 0% 60% 0% 0% 0%;
+    color: rgb(255, 255, 255);
 }
 
 .text {
@@ -58,20 +58,20 @@ section {
 .facebook img {
     width: 58px;
     height: 58px;
-    padding-left: 430px;
+    padding-left: 630px;
     padding-top: 302px;
 }
 
 .linkedin img {
     width: 58px;
     height: 58px;
-    padding-left: 430px;
+    padding-left: 630px;
     padding-top: 411px;
 }
 
 .git img {
     width: 58px;
     height: 58px;
-    padding-left: 430px;
+    padding-left: 630px;
     padding-top: 520px;
 }
